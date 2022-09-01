@@ -36,8 +36,7 @@
 
 // That's it! You're all done!
 
-const fileName = './public/index.html';
-fs.readFile(fileName, 'utf8', (err, data) => {     
+fs.readFile('./public/index.html', 'utf8', (err, data) => {     
    // add error message
    if (err) {
       console.log(err);
